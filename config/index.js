@@ -46,7 +46,7 @@ export const USER_CONFIG = {
   
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: "小说",
+  LITERARY_PREFERENCE: "",
   
   
   /**
@@ -73,8 +73,8 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "汐汐", "year": "2002", "date": "07-20"},
-        //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "生日", "name": "汐汐", "year": "2002", "date": "07-20"},
+        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "涛涛", "year": "2000", "date": "10-14"},
         {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "07-20"},
